@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
 using TngocShop.Data.Infrastructure;
 using TngocShop.Model.Models;
-using System.Linq;
 
 namespace TngocShop.Data.Respositories
 {
@@ -16,7 +14,6 @@ namespace TngocShop.Data.Respositories
     {
         public ProductCategoryRepository(IDbFactory dbFactory) : base(dbFactory)
         {
-
         }
 
         public IEnumerable<ProductCategory> GetByAlias(string alias)
