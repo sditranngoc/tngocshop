@@ -3,7 +3,7 @@ using TngocShop.Model.Models;
 
 namespace TngocShop.Data.Respositories
 {
-    public interface ISupportOnlineRepository
+    public interface ISupportOnlineRepository : IRepository<SupportOnline>
     {
     }
 
